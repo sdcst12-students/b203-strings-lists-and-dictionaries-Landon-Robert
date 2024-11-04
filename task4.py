@@ -10,6 +10,9 @@ def squares(n):
     # n should be an integer value
     # x will be the generated dictionary
     x={}
+    for i in n: 
+        x.append(i)
+        x.append([i**2])
     # your code goes here
     return x
 
